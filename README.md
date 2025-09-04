@@ -172,4 +172,5 @@ Want a different vibe? Try:
 <html data-accent="fuchsia"> for neon magenta
 <html data-accent="emerald"> for a calm green-cyan blend
 Prefer minimal motion? Your OS reduced-motion preference is respected automatically.
+
 Enjoy your new, beautiful Age Calculator! 🎂✨
