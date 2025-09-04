@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎂 Age Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#3b82f6" />
+</head>
+<body>
+  <div class="background"></div>
+
+  <header class="app-header">
+    <div class="brand">
+      <span class="brand-emoji" aria-hidden="true">🎂</span>
+      <h1 class="brand-title">Age Calculator</h1>
+    </div>
+
+    <div class="toolbar">
+      <button id="shareBtn" class="btn btn-secondary" title="Copy shareable link" aria-label="Copy shareable link">
+        🔗 Share
+      </button>
+
+      <button id="themeToggle" class="btn btn-icon" title="Toggle theme" aria-label="Toggle theme">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2 class="card-title">Your Details</h2>
+      <form id="ageForm" class="form" novalidate>
+        <div class="form-row">
+          <label for="dob" class="form-label">🗓️ Date of birth</label>
+          <input id="dob" name="dob" type="date" class="input" required aria-describedby="dobHelp" />
+          <div id="dobHelp" class="help-text">Please select your birth date (not in the future).</div>
+        </div>
+
+        <div class="form-row">
+          <label for="tob" class="form-label">⏰ Time of birth (optional)</label>
+          <input id="tob" name="tob" type="time" class="input" aria-describedby="tobHelp" />
+          <div id="tobHelp" class="help-text">Including time gives a precise seconds/minutes countdown.</div>
+        </div>
+
+        <div class="form-row inline">
+          <label class="checkbox">
+            <input id="liveMode" type="checkbox" />
+            <span>Live mode ⏳ (updates every second)</span>
+          </label>
+
+          <label class="checkbox">
+            <input id="useBirthTimeForNext" type="checkbox" checked />
+            <span>Use birth time for next birthday 🎉</span>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Calculate</button>
+          <button type="button" id="resetBtn" class="btn btn-outline">Reset</button>
+        </div>
+
+        <div id="formError" class="error" role="alert" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2 class="card-title">Your Age ⏳</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-label">Calendar age</div>
+          <div class="stat-value" id="ageYMD">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Born on</div>
+          <div class="stat-value" id="bornWeekday">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Western zodiac</div>
+          <div class="stat-value" id="zodiacWestern">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Chinese zodiac</div>
+          <div class="stat-value" id="zodiacChinese">—</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="card-title">Total Time Lived ⌛</h2>
+      <div class="totals-grid">
+        <div class="total"><span>Months</span><strong id="totalMonths">—</strong></div>
+        <div class="total"><span>Weeks</span><strong id="totalWeeks">—</strong></div>
+        <div class="total"><span>Days</span><strong id="totalDays">—</strong></div>
+        <div class="total"><span>Hours</span><strong id="totalHours">—</strong></div>
+        <div class="total"><span>Minutes</span><strong id="totalMinutes">—</strong></div>
+        <div class="total"><span>Seconds</span><strong id="totalSeconds">—</strong></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="card-title">Next Birthday 🎉</h2>
+      <div class="next-bday">
+        <div class="countdown">
+          <div class="count-item">
+            <div class="count" id="nbDays">—</div>
+            <div class="count-label">days</div>
+          </div>
+          <div class="count-item">
+            <div class="count" id="nbHours">—</div>
+            <div class="count-label">hours</div>
+          </div>
+          <div class="count-item">
+            <div class="count" id="nbMinutes">—</div>
+            <div class="count-label">minutes</div>
+          </div>
+          <div class="count-item">
+            <div class="count" id="nbSeconds">—</div>
+            <div class="count-label">seconds</div>
+          </div>
+        </div>
+        <div class="progress-wrapper" aria-label="Progress to next birthday">
+          <div class="progress-bar" id="nbProgress" style="width: 0%"></div>
+        </div>
+        <div class="next-date">
+          Next birthday on: <strong id="nextBirthdayDate">—</strong>
+          <span id="birthdayMessage" class="badge"> </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="card-title">Milestones 🌟</h2>
+      <ul class="list">
+        <li>10,000 days old: <strong id="m10k">—</strong></li>
+        <li>1 billion seconds old: <strong id="m1bSec">—</strong></li>
+        <li>Half-birthday: <strong id="mHalf">—</strong></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <span>Made with ❤️ and JS</span>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
