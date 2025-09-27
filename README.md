@@ -101,7 +101,7 @@ You can also set dark mode by default:
 
 Tip: You can wire a dropdown to change document.documentElement.dataset.accent at runtime for a theme picker.
 
-🔗 Shareable Links
+## 🔗 Shareable Links
 
 The app syncs your input to the URL:
 
@@ -116,7 +116,7 @@ https://your-domain.tld/?dob=1998-04-20&t=06:30&live=1
 
 Use the “🔗 Share” button to copy the current link.
 
-🛠️ How It Works
+## 🛠️ How It Works
 
 Time math
 Uses native Date with careful calendar math for years/months/days
@@ -126,20 +126,20 @@ Calculates time since last birthday vs the current birthday interval for a smoot
 Performance
 Live mode updates once per second with minimal DOM work
 
-♿ Accessibility
+## ♿ Accessibility
 
 Proper labels and descriptions for inputs
 Keyboard-friendly focus styles
 Reduced motion honored (prefers-reduced-motion)
 Clear error messages via ARIA live regions
 
-🌍 Browser Support
+## 🌍 Browser Support
 
 Modern evergreen browsers (Chrome, Edge, Firefox, Safari)
 Mobile-first responsive layout
 No external dependencies required
 
-📦 Deploy
+## 📦 Deploy
 
 GitHub Pages
 Push the repo
@@ -150,22 +150,22 @@ Import your repo and deploy as a static site
 Any static hosting
 Upload index.html, style.css, and script.js
 
-🧪 Testing Ideas (optional)
+## 🧪 Testing Ideas (optional)
 
 Unit test date math and leap-year logic with your preferred framework
 E2E test countdown ticks and next-birthday progress with Playwright
 If you’d like, I can add a small test suite to script.js logic (extracted into modules) and a CI workflow.
 
-📝 License
+## 📝 License
 
 MIT — feel free to use, modify, and distribute.
 
-🙌 Credits
+## 🙌 Credits
 
 Built with ❤️, JS, and a sprinkle of CSS sorcery (glassmorphism, gradients, orbs, and emojis).
 Icons/emoji: native emoji set.
 
-💡 Tips
+## 💡 Tips
 
 Want a different vibe? Try:
 <html data-accent="rose"> for a rose/coral look
