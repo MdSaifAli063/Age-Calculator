@@ -141,14 +141,14 @@ No external dependencies required
 
 ## 📦 Deploy
 
-GitHub Pages
-Push the repo
-Enable Pages for the main branch and root
-Visit the published URL
-Netlify / Vercel
-Import your repo and deploy as a static site
-Any static hosting
-Upload index.html, style.css, and script.js
+- GitHub Pages
+- Push the repo
+- Enable Pages for the main branch and root
+- Visit the published URL
+- Netlify / Vercel
+- Import your repo and deploy as a static site
+- Any static hosting
+- Upload index.html, style.css, and script.js
 
 ## 🧪 Testing Ideas (optional)
 
