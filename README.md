@@ -91,7 +91,7 @@ This project supports:
 Supported accents: `rose`, `amber`, `emerald`, `sky`, `violet`, `fuchsia`
 
 Set the accent in your HTML tag:
-```html
+
 <html lang="en" data-accent="violet">
 
 You can also set dark mode by default:
