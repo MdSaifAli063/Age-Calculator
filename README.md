@@ -152,7 +152,7 @@ No external dependencies required
 
 ## 🧪 Testing Ideas (optional)
 
-Unit test date math and leap-year logic with your preferred framework
+- Unit test date math and leap-year logic with your preferred framework
 E2E test countdown ticks and next-birthday progress with Playwright
 If you’d like, I can add a small test suite to script.js logic (extracted into modules) and a CI workflow.
 
