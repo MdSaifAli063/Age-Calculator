@@ -88,28 +88,28 @@ This project supports:
 - Light/Dark mode toggle via the “🌙/☀️” button
 - Accent color themes via an attribute on `<html>`
 
-Supported accents: `rose`, `amber`, `emerald`, `sky`, `violet`, `fuchsia`
+-Supported accents: `rose`, `amber`, `emerald`, `sky`, `violet`, `fuchsia`
 
-Set the accent in your HTML tag:
+- Set the accent in your HTML tag:
 
-<html lang="en" data-accent="violet">
+- <html lang="en" data-accent="violet">
 
-You can also set dark mode by default:
+- You can also set dark mode by default:
 
-<html lang="en" data-accent="emerald" data-theme="dark">
+- <html lang="en" data-accent="emerald" data-theme="dark">
 
 
 Tip: You can wire a dropdown to change document.documentElement.dataset.accent at runtime for a theme picker.
 
 ## 🔗 Shareable Links
 
-The app syncs your input to the URL:
+- The app syncs your input to the URL:
 
-dob=YYYY-MM-DD
-t=HH:MM
-live=1 to enable live mode
-usebt=0 to disable “use birth time”
-Example:
+- dob=YYYY-MM-DD
+- t=HH:MM
+- live=1 to enable live mode
+- usebt=0 to disable “use birth time”
+- Example:
 
 https://your-domain.tld/?dob=1998-04-20&t=06:30&live=1
 
