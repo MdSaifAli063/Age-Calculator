@@ -128,7 +128,7 @@ Time math
 
 ## ♿ Accessibility
 
-Proper labels and descriptions for inputs
+- Proper labels and descriptions for inputs
 Keyboard-friendly focus styles
 Reduced motion honored (prefers-reduced-motion)
 Clear error messages via ARIA live regions
