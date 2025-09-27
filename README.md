@@ -92,11 +92,11 @@ This project supports:
 
 - Set the accent in your HTML tag:
 
-- <html lang="en" data-accent="violet">
+  <html lang="en" data-accent="violet">
 
 - You can also set dark mode by default:
 
-- <html lang="en" data-accent="emerald" data-theme="dark">
+ <html lang="en" data-accent="emerald" data-theme="dark">
 
 
 Tip: You can wire a dropdown to change document.documentElement.dataset.accent at runtime for a theme picker.
@@ -135,7 +135,7 @@ Clear error messages via ARIA live regions
 
 ## 🌍 Browser Support
 
-Modern evergreen browsers (Chrome, Edge, Firefox, Safari)
+- Modern evergreen browsers (Chrome, Edge, Firefox, Safari)
 Mobile-first responsive layout
 No external dependencies required
 
