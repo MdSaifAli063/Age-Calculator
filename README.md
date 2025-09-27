@@ -88,7 +88,7 @@ This project supports:
 - Light/Dark mode toggle via the “🌙/☀️” button
 - Accent color themes via an attribute on `<html>`
 
--Supported accents: `rose`, `amber`, `emerald`, `sky`, `violet`, `fuchsia`
+- Supported accents: `rose`, `amber`, `emerald`, `sky`, `violet`, `fuchsia`
 
 - Set the accent in your HTML tag:
 
@@ -119,12 +119,12 @@ Use the “🔗 Share” button to copy the current link.
 ## 🛠️ How It Works
 
 Time math
-Uses native Date with careful calendar math for years/months/days
-Leap years and Feb 29 birthdays are handled (next birthday shifts to Feb 28 on non-leap years)
-Next birthday progress
-Calculates time since last birthday vs the current birthday interval for a smooth progress indicator
-Performance
-Live mode updates once per second with minimal DOM work
+- Uses native Date with careful calendar math for years/months/days
+- Leap years and Feb 29 birthdays are handled (next birthday shifts to Feb 28 on non-leap years)
+- Next birthday progress
+- Calculates time since last birthday vs the current birthday interval for a smooth progress indicator
+- Performance
+- Live mode updates once per second with minimal DOM work
 
 ## ♿ Accessibility
 
