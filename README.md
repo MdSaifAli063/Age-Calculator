@@ -25,9 +25,7 @@ Optionally add a screenshot in `docs/images/` and link it here:
 
 ## 📦 Project Structure
 
-
 . ├─ index.html # App markup ├─ style.css # Beautiful, responsive UI styles ├─ script.js # All calculation and UI logic └─ README.md # This file
-
 
 ---
 
