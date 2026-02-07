@@ -145,6 +145,8 @@ Clear error messages via ARIA live regions
 Mobile-first responsive layout
 No external dependencies required
 
+---
+
 ## 📦 Deploy
 
 - GitHub Pages
