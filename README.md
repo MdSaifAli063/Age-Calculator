@@ -113,7 +113,6 @@ Tip: You can wire a dropdown to change document.documentElement.dataset.accent a
 
 https://your-domain.tld/?dob=1998-04-20&t=06:30&live=1
 
-
 Use the “🔗 Share” button to copy the current link.
 
 ---
@@ -157,6 +156,8 @@ No external dependencies required
 - Import your repo and deploy as a static site
 - Any static hosting
 - Upload index.html, style.css, and script.js
+
+---
 
 ## 🧪 Testing Ideas (optional)
 
