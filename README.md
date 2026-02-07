@@ -128,6 +128,8 @@ Time math
 - Performance
 - Live mode updates once per second with minimal DOM work
 
+---
+
 ## ♿ Accessibility
 
 - Proper labels and descriptions for inputs
