@@ -178,6 +178,8 @@ If you’d like, I can add a small test suite to script.js logic (extracted into
 - Built with ❤️, JS, and a sprinkle of CSS sorcery (glassmorphism, gradients, orbs, and emojis).
 Icons/emoji: native emoji set.
 
+---
+
 ## 💡 Tips
 
 - Want a different vibe? Try:
