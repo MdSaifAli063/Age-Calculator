@@ -165,6 +165,8 @@ No external dependencies required
 E2E test countdown ticks and next-birthday progress with Playwright
 If you’d like, I can add a small test suite to script.js logic (extracted into modules) and a CI workflow.
 
+---
+
 ## 📝 License
 
 - MIT — feel free to use, modify, and distribute.
