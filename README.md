@@ -171,6 +171,8 @@ If you’d like, I can add a small test suite to script.js logic (extracted into
 
 - MIT — feel free to use, modify, and distribute.
 
+---
+
 ## 🙌 Credits
 
 - Built with ❤️, JS, and a sprinkle of CSS sorcery (glassmorphism, gradients, orbs, and emojis).
