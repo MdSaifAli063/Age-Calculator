@@ -99,6 +99,8 @@ This project supports:
 
 Tip: You can wire a dropdown to change document.documentElement.dataset.accent at runtime for a theme picker.
 
+---
+
 ## 🔗 Shareable Links
 
 - The app syncs your input to the URL:
