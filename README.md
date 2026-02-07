@@ -116,6 +116,8 @@ https://your-domain.tld/?dob=1998-04-20&t=06:30&live=1
 
 Use the “🔗 Share” button to copy the current link.
 
+---
+
 ## 🛠️ How It Works
 
 Time math
