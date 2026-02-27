@@ -13,7 +13,7 @@ A modern, responsive, and delightful Age Calculator with live updates, zodiac si
 
 ---
 
-## ✨ Demo
+## ✨ screenshot
 
 - Open `index.html` directly in your browser, or
 - Serve with a static server and navigate to `http://localhost:PORT`
