@@ -15,10 +15,6 @@ A modern, responsive, and delightful Age Calculator with live updates, zodiac si
 
 ## ✨ screenshot
 
-- Open `index.html` directly in your browser, or
-- Serve with a static server and navigate to `http://localhost:PORT`
-
-Optionally add a screenshot in `docs/images/` and link it here:
 ![image](https://github.com/MdSaifAli063/Age-Calculator/blob/465c65b589343b4e3e87e814a0a6d0beb3d081db/Screenshot%202025-09-05%20021048.png)
 
 ---
